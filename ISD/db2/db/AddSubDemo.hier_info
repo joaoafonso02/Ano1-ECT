@@ -1,0 +1,14 @@
+|AddSubDemo
+cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst1.IN0
+a => inst2.IN1
+a => inst.IN0
+a => inst8.IN1
+b => inst1.IN1
+b => inst.IN1
+b => inst7.IN1
+cin => inst2.IN0
+cin => inst7.IN0
+S <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+

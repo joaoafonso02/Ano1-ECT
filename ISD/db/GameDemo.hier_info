@@ -1,0 +1,53 @@
+|Block2
+I0 => GameDemo:inst.I0
+I0 => GameDemo:inst3.I0
+I0 => GameDemo:inst4.I0
+I0 => GameDemo:inst5.I0
+i1 => GameDemo:inst.i1
+i1 => GameDemo:inst3.i1
+i1 => GameDemo:inst4.i1
+i1 => GameDemo:inst5.i1
+
+
+|Block2|GameDemo:inst
+y <= inst.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+i1 => inst.IN1
+
+
+|Block2|GameDemo:inst3
+y <= inst.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+i1 => inst.IN1
+
+
+|Block2|GameDemo:inst4
+y <= inst.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+i1 => inst.IN1
+
+
+|Block2|GameDemo:inst5
+y <= inst.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+i1 => inst.IN1
+
+
+|Block2|GameDemo:inst6
+y <= inst.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+i1 => inst.IN1
+
+
+|Block2|GameDemo:inst7
+y <= inst.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+i1 => inst.IN1
+
+
+|Block2|GameDemo:inst8
+y <= inst.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+i1 => inst.IN1
+
+
