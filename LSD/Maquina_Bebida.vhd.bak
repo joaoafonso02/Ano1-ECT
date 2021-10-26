@@ -1,0 +1,36 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity Maquina_bebida is 
+
+	port(HEX0: out std_logic_vector(6 downto 0);
+		  HEX1: out std_logic_vector(6 downto 0);
+		  HEX2: out std_logic_vector(6 downto 0);
+		  HEX3: out std_logic_vector(6 downto 0));
+
+end Maquina_bebida;
+
+architecture Shell of Maquina_bebida is
+	signal msg_display : std_logic_vector(15 downto 0);
+begin 
+
+-- displays
+display1 : entity work.Bin_to_char_7SegDecoder(Behavioral)
+						port map(binInput => msg_display(3 downto 0),
+									decOut_n => HEX0
+									);
+display2 : entity work.Bin_to_char_7SegDecoder(Behavioral)
+						port map(binInput => msg_display(7 downto 4),
+									decOut_n => HEX1
+									);
+display3 : entity work.Bin_to_char_7SegDecoder(Behavioral)
+						port map(binInput => msg_display(11 downto 8)
+									decOut_n => HEX2
+									);
+display4 : entity work.Bin_to_char_7SegDecoder(Behavioral+)
+						port map(binInput => msg_display(15 downto 12),
+									decOut_n => HEX3
+									);
+
+
+end Shell;

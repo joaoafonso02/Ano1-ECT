@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Jun 19 23:08:36 2021
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : Maquina_Bebida
+Top-level Entity Name : Timer
+Family : Cyclone IV E
+Total logic elements : 47
+    Total combinational functions : 47
+    Dedicated logic registers : 32
+Total registers : 32
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

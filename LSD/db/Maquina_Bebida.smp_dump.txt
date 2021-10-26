@@ -1,0 +1,38 @@
+
+State Machine - |Maquina_bebida|GeloSel_FSM:GeloSel_FSM|s_currentState
+Name s_currentState.S4 s_currentState.S3 s_currentState.S0 s_currentState.S1 s_currentState.S2 
+s_currentState.S2 0 0 0 0 0 
+s_currentState.S1 0 0 0 1 1 
+s_currentState.S0 0 0 1 0 1 
+s_currentState.S3 0 1 0 0 1 
+s_currentState.S4 1 0 0 0 1 
+
+State Machine - |Maquina_bebida|Escolha_Prod_FSM:Esc_Prod_FSM|current_state
+Name current_state.st_progSpes current_state.st_progSoli current_state.st_progFan current_state.prog current_state.Gelo current_state.St_Spes current_state.St_Soli current_state.St_Fan current_state.Done current_state.Option current_state.Boot current_state.Init 
+current_state.Init 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.Boot 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.Option 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.Done 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.St_Fan 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.St_Soli 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.St_Spes 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.Gelo 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.prog 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.st_progFan 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.st_progSoli 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.st_progSpes 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |Maquina_bebida|Escolha_Prod_FSM:Esc_Prod_FSM|state
+Name state.st_progSpes state.st_progSoli state.st_progFan state.prog state.Gelo state.St_Spes state.St_Soli state.St_Fan state.Done state.Option state.Boot state.Init 
+state.Init 0 0 0 0 0 0 0 0 0 0 0 0 
+state.Boot 0 0 0 0 0 0 0 0 0 0 1 1 
+state.Option 0 0 0 0 0 0 0 0 0 1 0 1 
+state.Done 0 0 0 0 0 0 0 0 1 0 0 1 
+state.St_Fan 0 0 0 0 0 0 0 1 0 0 0 1 
+state.St_Soli 0 0 0 0 0 0 1 0 0 0 0 1 
+state.St_Spes 0 0 0 0 0 1 0 0 0 0 0 1 
+state.Gelo 0 0 0 0 1 0 0 0 0 0 0 1 
+state.prog 0 0 0 1 0 0 0 0 0 0 0 1 
+state.st_progFan 0 0 1 0 0 0 0 0 0 0 0 1 
+state.st_progSoli 0 1 0 0 0 0 0 0 0 0 0 1 
+state.st_progSpes 1 0 0 0 0 0 0 0 0 0 0 1 

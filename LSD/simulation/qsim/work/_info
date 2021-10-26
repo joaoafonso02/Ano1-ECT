@@ -1,0 +1,327 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dc:/LSD/Projeto/simulation/qsim
+Ehard_block
+Z1 w1623143152
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 N5CzKW88F^ShIK@<7Vek12
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 K8IbX`K5[Y1gJUKg2X_071
+R0
+Z8 8Maquina_Bebida.vho
+Z9 FMaquina_Bebida.vho
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1623143157
+!i10b 1
+Z12 !s108 1623143156.000000
+Z13 !s90 -work|work|Maquina_Bebida.vho|
+Z14 !s107 Maquina_Bebida.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Emaquina_bebida
+R1
+R3
+R7
+R2
+Z17 DPx6 altera 11 dffeas_pack 0 22 ?bDUB9Db2N8iCCALNL;CT3
+R4
+R5
+R6
+Z18 DPx6 altera 28 altera_primitives_components 0 22 c]VUMXSEi8Z`KM1bem<:B3
+R0
+R8
+R9
+l0
+L79
+VR650g3mGld1QDi8k9m[O[2
+!s100 a6gUL@MgQ6FkQgLHY4f0D3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R17
+R4
+R5
+R6
+R18
+DEx4 work 14 maquina_bebida 0 22 R650g3mGld1QDi8k9m[O[2
+l473
+L173
+VZZhIa4>3Vk??h;9bHckmm2
+!s100 mlMihd3TG>0_HIULdl7>Q3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Emaquina_bebida_vhd_vec_tst
+Z19 w1623143151
+R5
+R6
+R0
+Z20 8Timer.vwf.vht
+Z21 FTimer.vwf.vht
+l0
+L31
+V^Dg60LPH22eVDiH8`BW451
+!s100 KC>4Vm1CK]G0<KB4zEK@B2
+R10
+32
+R11
+!i10b 1
+Z22 !s108 1623143157.000000
+Z23 !s90 -work|work|Timer.vwf.vht|
+Z24 !s107 Timer.vwf.vht|
+!i113 1
+R15
+R16
+Amaquina_bebida_arch
+R5
+R6
+DEx4 work 26 maquina_bebida_vhd_vec_tst 0 22 ^Dg60LPH22eVDiH8`BW451
+l58
+L33
+VGGBHDQ>lj>Y;k`b^>^:c_3
+!s100 O046:Y[:6blXN:V_N@f@i3
+R10
+32
+R11
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R15
+R16
+Etimer
+Z25 w1624140629
+R3
+R7
+R2
+R17
+R4
+R5
+R6
+R18
+Z26 dC:/LSD/ProjetoFase3/simulation/qsim
+R8
+R9
+l0
+L36
+Vk>Ll?GVJ0eVoCOGB^DzYb0
+!s100 nJe6?@`[U58[KIYj5;A9K3
+R10
+32
+Z27 !s110 1624140630
+!i10b 1
+Z28 !s108 1624140630.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R17
+R4
+R5
+R6
+R18
+DEx4 work 5 timer 0 22 k>Ll?GVJ0eVoCOGB^DzYb0
+l151
+L47
+V5>JRART3JGXQAf0<LG:S@2
+!s100 ;M6^k;o]3oXZSTXIVa86M1
+R10
+32
+R27
+!i10b 1
+R28
+R13
+R14
+!i113 1
+R15
+R16
+Etimer_vhd_vec_tst
+Z29 w1624140627
+R5
+R6
+R26
+Z30 8timertest.vwf.vht
+Z31 Ftimertest.vwf.vht
+l0
+L31
+VC[>`ea;LgWL@>c7za<FhF0
+!s100 3GL_162jSR^dNWCfOm:Ih3
+R10
+32
+R27
+!i10b 1
+R28
+Z32 !s90 -work|work|timertest.vwf.vht|
+Z33 !s107 timertest.vwf.vht|
+!i113 1
+R15
+R16
+Atimer_arch
+R5
+R6
+Z34 DEx4 work 17 timer_vhd_vec_tst 0 22 C[>`ea;LgWL@>c7za<FhF0
+l52
+L33
+V1B585YiPU?WJYL9`bzbo71
+!s100 LWoCX@1?O7XW4jzASP[151
+R10
+32
+R27
+!i10b 1
+R28
+R32
+R33
+!i113 1
+R15
+R16
+Etimerauxfsm
+Z35 w1623143202
+R3
+R7
+R2
+R17
+R4
+R5
+R6
+R18
+R0
+R8
+R9
+l0
+L36
+VW2AYaeUHFBW:5nDdLSR_F0
+!s100 haJIAA]NN5EH4;Y5Vi1]T0
+R10
+32
+Z36 !s110 1623143203
+!i10b 1
+Z37 !s108 1623143203.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R17
+R4
+R5
+R6
+R18
+DEx4 work 11 timerauxfsm 0 22 W2AYaeUHFBW:5nDdLSR_F0
+l128
+L47
+VFhW@X0A>MQ[OTdnLjXc570
+!s100 ePh9VY;zS<JT=JHF]lbVD0
+R10
+32
+R36
+!i10b 1
+R37
+R13
+R14
+!i113 1
+R15
+R16
+Etimerauxfsm_vhd_vec_tst
+Z38 w1623143200
+R5
+R6
+R0
+R20
+R21
+l0
+L31
+V>[0BcQSZd1_a6Z^1an<Wc0
+!s100 JFIoAc[B[hT<?KG6<7;k;1
+R10
+32
+R36
+!i10b 1
+R37
+R23
+R24
+!i113 1
+R15
+R16
+Atimerauxfsm_arch
+R5
+R6
+DEx4 work 23 timerauxfsm_vhd_vec_tst 0 22 >[0BcQSZd1_a6Z^1an<Wc0
+l52
+L33
+V9CSP9kDJKnHN>Lk^X84[61
+!s100 niL3S45O3ZDi?@l_5Q`RA3
+R10
+32
+R36
+!i10b 1
+R37
+R23
+R24
+!i113 1
+R15
+R16
