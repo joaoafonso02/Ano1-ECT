@@ -1,0 +1,35 @@
+Nome: 2
+Numero mec: 2
+Teste 1: 2.0
+Teste 2: 2.0
+Teste 3: 2.0
+Nota final: 0.0
+
+Nome: 22
+Numero mec: 2
+Teste 1: 2.0
+Teste 2: 2.0
+Teste 3: 2.0
+Nota final: 0.0
+
+Nome: 2
+Numero mec: 2
+Teste 1: 2.0
+Teste 2: 2.0
+Teste 3: 2.0
+Nota final: 0.0
+
+Nome: 2
+Numero mec: 2
+Teste 1: 3.0
+Teste 2: 3.0
+Teste 3: 3.0
+Nota final: 0.0
+
+Nome: 2
+Numero mec: 3
+Teste 1: 3.0
+Teste 2: 2.0
+Teste 3: 3.0
+Nota final: 0.0
+
